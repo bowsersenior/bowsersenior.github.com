@@ -13,10 +13,6 @@
           font-family: 'Ubuntu Mono', sans-serif;
     }
 
-    body {
-      font-size: 1.5em;
-    }
-
     a {
       text-decoration: none;
     }
@@ -89,9 +85,11 @@
     </style>
   </head>
   <body>
-    <h1 id="presentations_by_mani_tadayon">
-      Presentations by Mani Tadayon
-    </h1>
+    <h1>Mani Tadayon (bowsersenior)</h1>
+
+    <h2 id="presentations_by_mani_tadayon">
+      Presentations
+    </h2>
 
     <ul id="presentations">
       <li>Intro to Redmine
@@ -153,10 +151,12 @@
     </ul>
 
     <h2>Bookmarklet<h2>
-    <p>
-      <a href="javascript:(function(){void((function(){var%20cookie_list,sub_domain,location_pathname,cookie_index,cookie_count;cookie_count=0;cookie_list=document.cookie.split(%22;%20%22);for(cookie_index=0;cookie_index%3Ccookie_list.length%26%26cookie_list[cookie_index];cookie_index++){cookie_count++;for(sub_domain=%22.%22+location.host;sub_domain;sub_domain=sub_domain.replace(/^(%3F:\.|[^\.]+)/,%22%22)){for(location_pathname=location.pathname;location_pathname;location_pathname=location_pathname.replace(/.$/,%22%22)){document.cookie=(cookie_list[cookie_index]+%22;%20domain=%22+sub_domain+%22;%20path=%22+location_pathname+%22;%20expires=%22+new%20Date((new%20Date()).getTime()-1e11).toGMTString());}}}var%20msg=%22Expired%20%22+cookie_count+%22%20cookies%22;window.Notification%20%26%26%20Notification.requestPermission(function(){new%20Notification(msg)});})())})();">clear cookies
-      </a>
-    </p>
+    <ul>
+      <li>
+        <a href="javascript:(function(){void((function(){var%20cookie_list,sub_domain,location_pathname,cookie_index,cookie_count;cookie_count=0;cookie_list=document.cookie.split(%22;%20%22);for(cookie_index=0;cookie_index%3Ccookie_list.length%26%26cookie_list[cookie_index];cookie_index++){cookie_count++;for(sub_domain=%22.%22+location.host;sub_domain;sub_domain=sub_domain.replace(/^(%3F:\.|[^\.]+)/,%22%22)){for(location_pathname=location.pathname;location_pathname;location_pathname=location_pathname.replace(/.$/,%22%22)){document.cookie=(cookie_list[cookie_index]+%22;%20domain=%22+sub_domain+%22;%20path=%22+location_pathname+%22;%20expires=%22+new%20Date((new%20Date()).getTime()-1e11).toGMTString());}}}var%20msg=%22Expired%20%22+cookie_count+%22%20cookies%22;window.Notification%20%26%26%20Notification.requestPermission(function(){new%20Notification(msg)});})())})();">clear cookies
+        </a> (drag to bookmarks bar)
+      </li>
+    </ul>
 
     <script type="text/javascript" charset="utf-8">
     /*
