@@ -1,6 +1,4 @@
-# Presentations by Mani Tadayon
-
-* Intro to Redmine
-* Developer-friendly Gem Development
-* Sleep sort: time is on your side
-* Cucumber and friends: tools for security that matters (with Tin Zaw)
+Source for:
+<pre>
+  <a href="http://bowsersenior.github.com">http://bowsersenior.github.com</a>
+</pre>
